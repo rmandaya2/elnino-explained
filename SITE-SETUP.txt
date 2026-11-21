@@ -1,0 +1,35 @@
+EL NIÑO, EXPLAINED — WEBSITE FILES
+==================================
+
+What's here
+  index.html ............ Cover / home
+  read-01.html to read-04.html .. The four reads
+  quiz.html ............. Quiz page (shows your Google Form)
+  checklist.html ........ Printable household checklist
+  assets/config.js ...... YOUR SETTINGS (the only file to edit)
+  assets/style.css, assets/site.js .. Design and behaviour (don't edit)
+
+1) Fill in your settings (5 minutes)
+  Open assets/config.js in any text editor (Notepad on Windows, TextEdit on Mac
+  set to plain text). Put your values between the quotes:
+    gaMeasurementId  Google Analytics ID, e.g. "G-ABC123XYZ"
+    formEmbedUrl     In your Google Form: Send > the < > tab > copy only the link
+                     inside src="..." (it ends with ?embedded=true)
+    partnerName      Your certificate partner's name
+    supportEmail     The email learners write to about certificates
+  Save the file.
+
+2) Publish for free (pick one)
+  A. Netlify Drop (easiest)
+     - Go to app.netlify.com/drop and sign up or log in (free) so the site is kept.
+     - Drag this whole folder onto the page. Your site is live in seconds.
+     - Site settings > Change site name to get an address like
+       elnino-explained.netlify.app
+     - To update later: Deploys tab > drag the folder in again.
+  B. GitHub Pages
+     - Connect GitHub to Claude and ask Claude to publish it, or upload the
+       folder to a public repository and turn on Settings > Pages.
+
+3) Check it
+  Open the address in an incognito window and on a phone. The quiz page should
+  show the Form; submit a test and confirm it reaches your response Sheet.
