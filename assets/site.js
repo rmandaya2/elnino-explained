@@ -38,6 +38,9 @@
         slot.innerHTML = "";
         slot.appendChild(f);
         slot.classList.add("has-form");
+        var link = (cfg.formLink || url.replace("?embedded=true", "")).trim();
+        var alt = document.getElementById("quiz-newtab");
+        if (alt && link) { alt.href = link; alt.hidden = false; }
       }
     }
 
